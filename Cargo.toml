@@ -1,0 +1,9 @@
+[package]
+name = "test-legacy-msg-rs"
+version = "0.1.0"
+authors = ["AljoschaMeyer <mail@aljoscha-meyer.de>"]
+edition = "2018"
+
+[dependencies]
+ssb-legacy-msg-data = { path = "../legacy-msg-data" }
+crypto-hash = "0.3.1"
